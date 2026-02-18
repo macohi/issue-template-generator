@@ -8,9 +8,9 @@ body:
   id: id-1
   attributes:
     label: "required-label"
-    description: "description""
+    description: "description"
     placeholder: "placeholder"
-    value: "default-text""
+    value: "default-text"
   validations:
     required: true
 - type: input

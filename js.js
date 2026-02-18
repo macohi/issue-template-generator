@@ -149,7 +149,7 @@ function add_textfield() {
 				'"'
 			: "") +
 		(Placeholder.value !== ""
-			? `"
+			? `
     placeholder: "` +
 				Placeholder.value +
 				'"'
@@ -160,7 +160,7 @@ function add_textfield() {
 				Value.value +
 				'"'
 			: "") +
-		`"
+		`
   validations:
     required: ` +
 		Required.value +
