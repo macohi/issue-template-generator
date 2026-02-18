@@ -134,10 +134,10 @@ function add_textfield() {
 	if (Id.value !== "") {
 		outputElement.innerHTML +=
 			`
-  id: ` + Id.value;
+  id: "` + Id.value;
 	}
 	outputElement.innerHTML +=
-		`
+		`"
   attributes:
     label: "` +
 		Label.value +
@@ -199,10 +199,10 @@ function add_textarea() {
 	if (Id.value !== "") {
 		outputElement.innerHTML +=
 			`
-  id: ` + Id.value;
+  id: "` + Id.value;
 	}
 	outputElement.innerHTML +=
-		`
+		`"
   attributes:
     label: "` +
 		Label.value +
@@ -259,10 +259,10 @@ function add_dropdown() {
 	if (Id.value !== "") {
 		outputElement.innerHTML +=
 			`
-  id: ` + Id.value;
+  id: "` + Id.value;
 	}
 	outputElement.innerHTML +=
-		`
+		`"
   attributes:
     label: "` +
 		Label.value +
@@ -304,10 +304,10 @@ function add_checkbox() {
 	if (Id.value !== "") {
 		outputElement.innerHTML +=
 			`
-  id: ` + Id.value;
+  id: "` + Id.value;
 	}
 	outputElement.innerHTML +=
-		`
+		`"
   attributes:` +
 		(Label.value !== ""
 			? `
