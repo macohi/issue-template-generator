@@ -117,9 +117,9 @@ outputElement.innerHTML+=
 `
   attributes:
     label: "`+Label.value+"\""+(Description.value!==""?`
-    description: "`+Description.value+"\"":"")+(Placeholder.value!==""?`
+    description: "`+Description.value+"\"":"")+(Placeholder.value!==""?`"
     placeholder: "`+Placeholder.value+"\"":"")+(Value.value!==""?`
-    value: "`+Value.value+"\"":"")+`
+    value: "`+Value.value+"\"":"")+`"
   validations:
     required: `+Required.value+``;
 
