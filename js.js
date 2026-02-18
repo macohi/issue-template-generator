@@ -153,7 +153,7 @@ function add_textfield() {
     placeholder: "` +
 			Placeholder.value +
 			'"'
-			: "") +
+			: "\"") +
 		(Value.value !== ""
 			? `
     value: "` +
@@ -212,7 +212,7 @@ function add_textarea() {
     description: "` +
 			Description.value +
 			'"'
-			: "") +
+			: "\"") +
 		(Placeholder.value !== ""
 			? `
     placeholder: |
@@ -272,7 +272,7 @@ function add_dropdown() {
     description: "` +
 			Description.value +
 			'"'
-			: "") +
+			: "\"") +
 		`
     multiple: ` +
 		Multiple.value +
@@ -314,13 +314,13 @@ function add_checkbox() {
     label: "` +
 			Label.value +
 			'"'
-			: "") +
+			: "\"") +
 		(Description.value !== ""
 			? `
     description: "` +
 			Description.value +
 			'"'
-			: "") +
+			: "\"") +
 		`
     options: 
       - label: "` +
