@@ -17,9 +17,9 @@ body:
   id: id-2
   attributes:
     label: "unrequired-label"
-    description: "2""
+    description: "2"
     placeholder: "placeholder"
-    value: "2""
+    value: "2"
   validations:
     required: false
 - type: markdown

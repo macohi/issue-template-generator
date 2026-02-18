@@ -145,21 +145,21 @@ function add_textfield() {
 		(Description.value !== ""
 			? `
     description: "` +
-				Description.value +
-				'"'
-			: "") +
+			Description.value +
+			'"'
+			: "\"") +
 		(Placeholder.value !== ""
 			? `
     placeholder: "` +
-				Placeholder.value +
-				'"'
+			Placeholder.value +
+			'"'
 			: "") +
 		(Value.value !== ""
 			? `
     value: "` +
-				Value.value +
-				'"'
-			: "") +
+			Value.value +
+			'"'
+			: "\"") +
 		`
   validations:
     required: ` +
@@ -210,8 +210,8 @@ function add_textarea() {
 		(Description.value !== ""
 			? `
     description: "` +
-				Description.value +
-				'"'
+			Description.value +
+			'"'
 			: "") +
 		(Placeholder.value !== ""
 			? `
@@ -270,8 +270,8 @@ function add_dropdown() {
 		(Description.value !== ""
 			? `
     description: "` +
-				Description.value +
-				'"'
+			Description.value +
+			'"'
 			: "") +
 		`
     multiple: ` +
@@ -312,14 +312,14 @@ function add_checkbox() {
 		(Label.value !== ""
 			? `
     label: "` +
-				Label.value +
-				'"'
+			Label.value +
+			'"'
 			: "") +
 		(Description.value !== ""
 			? `
     description: "` +
-				Description.value +
-				'"'
+			Description.value +
+			'"'
 			: "") +
 		`
     options: 
