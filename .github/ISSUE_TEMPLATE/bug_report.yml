@@ -1,112 +1,50 @@
 name: "1"
-description: "222"
-title: "3"
-labels: "4"
-assignees: "5"
+description: "234"
+title: "5"
+labels: "68"
+assignees: "7"
 body:
-- type: input
-  id: id-1
-  attributes:
-    label: "required-label"
-    description: "description"
-    placeholder: "placeholder"
-    value: "default-text"
-  validations:
-    required: true
-- type: input
-  id: id-2
-  attributes:
-    label: "unrequired-label"
-    description: "2"
-    placeholder: "placeholder"
-    value: "2"
-  validations:
-    required: false
-- type: markdown
-  attributes:
-    value: |
-      3
-- type: textarea
-  id: 456
-  attributes:
-    label: "234"
-    description: "456"
-    placeholder: |
-      456
-    value: |
-      234
-    render: 456
-  validations:
-    required: true
-- type: textarea
-  id: 456
-  attributes:
-    label: "dfgdfg"
-    description: "45g"
-    placeholder: |
-      31
-    value: |
-      fgdf
-    render: 4562
-  validations:
-    required: false
-- type: dropdown
-  id: 2323
-  attributes:
-    label: "e"
-    description: "desc"
-    multiple: false
-    options: 
-      - eee
-      - eee
-  validations:
-    required: true
-- type: dropdown
-  id: 2232r
-  attributes:
-    label: "asdasd"
-    description: "sxfsdf"
-    multiple: true
-    options: 
-      - e
-      - a
-  validations:
-    required: true
-- type: dropdown
-  id: eeeeeeeeeee
-  attributes:
-    label: "eeeeee"
-    description: "ooooooo"
-    multiple: false
-    options: 
-      - eeee
-      - aaaa
-  validations:
-    required: true
-- type: dropdown
-  id: aeae
-  attributes:
-    label: "zerp"
-    description: "oeoeoe"
-    multiple: true
-    options: 
-      - pwe
-      - lek
-  validations:
-    required: true
-- type: checkboxes
-  id: dfsx
-  attributes:
-    label: "hm"
-    description: "hm"
-    options: 
-      - label: "hm"
-        required: true
-- type: checkboxes
-  id: asd
-  attributes:
-    label: "asdas"
-    description: "asdwe"
-    options: 
-      - label: "29.99"
-        required: false
+        - type: input
+          id: 5
+          attributes:
+                  label: "1"
+                  description: "3"
+                  placeholder: "4"
+                  value: "2"
+          validations:
+                  required: true
+        - type: markdown
+          attributes:
+                  value: |
+                          6
+        - type: textarea
+          id: 12
+          attributes:
+                  label: "7"
+                  description: "9"
+                  placeholder: |
+                          10
+                  value: |
+                          8
+                  render: 11
+          validations:
+                  required: true
+        - type: dropdown
+          id: 17
+          attributes:
+                  label: "13"
+                  description: "16"
+                  multiple: false
+                  options:
+                          - 14
+                          - 15
+          validations:
+                  required: true
+        - type: checkboxes
+          id: 21
+          attributes:
+                  label: "18"
+                  description: "20"
+                  options:
+                          - label: "19"
+                            required: true
